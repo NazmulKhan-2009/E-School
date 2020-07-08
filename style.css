@@ -6,16 +6,11 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
-
+/* NAV CSS */
 .nav-bg{
   background-color: #F0FFF0;
   width: 100%;
   height: 280px;
-  
-}
-.landing-bg{
-  background-color: #F0FFF0;
-  /* height: 450px; */
 }
 .sign-in button{
   background-color: #21B573;
@@ -23,17 +18,22 @@ body{
   padding: 10px 10px;
   outline-style: none;
   border: none;
-  width: 100px;
+  width: 104px;
   color: white;
+}
 
+/* Landing Part CSS */
+.landing-bg{
+  background-color: #F0FFF0;
+  
 }
 .landing-left p{
  color: #FB6735;
 }
 .landing-left h1{
   line-height: 4rem;
-  font-weight: 900;
-  font-size: 3rem;
+  font-weight:bold;
+  font-size: 48px;
   
 }
 .landing-left span{
@@ -47,21 +47,19 @@ body{
   padding: 10px 20px;
   outline-style: none;
   border: none;
-  width: 150px;
+  width: 160px;
   color: white;
 }
+
+/* Resources Part CSS */
 .resources{
   display: flex;
   align-items: center;
   justify-content:center;
   flex-direction: column;
-  /* border: 2px solid black; */
   padding: 30px ;
   margin-bottom: 10px;
   transition: .3s all;
-  
-  
-  
 }
 .resources:hover{
   box-shadow: 5px 5px 20px lightgray;
@@ -69,40 +67,87 @@ body{
   border-radius: 10px;
 }
 .resources img{
-  min-width: 80px;
-  height:80px;
-  position: 100% 100%;
+  min-width: 66px;
+  height:85px;
 }
 
-
-
-.testimonial img{
-  width:120px;
-  height: 120px;
-  float: left;
-}
-.testimonial p{
-  
-  padding: 15px 15px;
-  text-align: justify;
-}
-.bg-footer{
-  background-color: #282531;
-  /* color: #FFFFFF; */
-  width: 100%;
- min-height: 300px;
-}
-.bg-footer p, h6,a{
-  color:#FFFFFF ;
-  
-}
+/* Online Courses CSS */
 .card{
   border:none;
   box-shadow: 5px 5px 20px lightgray;
   border-radius: 20px;
-
 }
 .card img{
   padding: 20px 20px;
   border-radius: 30px;
 }
+
+/* Testimonial Part Resources */
+.testimonial img{
+  width:120px;
+  height: 120px;
+  float: left;
+}
+.testimonial p{  
+  padding: 15px 15px;
+  text-align: justify;
+  transform: translateX(75px);
+}
+.icon-size{
+  font-size: 22px;
+}
+.icon-size:hover{
+  color:red
+}
+
+/* Footer Part CSS */
+.bg-footer{
+  background-color: #282531;
+  width: 100%;
+  min-height: 300px;
+  margin-bottom: 0;
+}
+
+.bg-footer p, h6,a{
+  color:#FFFFFF ;
+  }
+.bg-footer h6{
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.bg-footer p,a{
+  font-size: 14px;
+}
+
+/* Finished CSS  */
+
+/* MEDIA QUERY START */
+@media only screen and (max-width: 600px) {
+  
+  .landing-left p{
+    text-align: center;
+    margin: auto;
+   }
+  .landing-left h1{
+    line-height: 2rem;
+    font-weight:bold;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+  }
+  .start-btn button{
+    transform: translateX(100%);
+
+  }
+  .nav-responsive a{
+    margin: auto;
+  }
+  .sign-in button{
+    transform: translateX(150%);
+  }
+  .testimonial p{
+  transform: translateX(10px);
+  }
+}
+/* MEDIA QUERY FINISHED */
