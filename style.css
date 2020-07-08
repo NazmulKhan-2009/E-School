@@ -9,12 +9,12 @@ body{
 
 .nav-bg{
   background-color: #F0FFF0;
-  height: 80px;
+  min-height: 80px;
   
 }
 .landing-bg{
   background-color: #F0FFF0;
-  height: 450px;
+  min-height: 450px;
 }
 .sign-in button{
   background-color: #21B573;
@@ -24,6 +24,7 @@ body{
   border: none;
   width: 100px;
   color: white;
+
 }
 .landing-left p{
  color: #FB6735;
