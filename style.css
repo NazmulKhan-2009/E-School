@@ -69,7 +69,6 @@ body{
 .resources img{
   min-width: 66px;
   height:85px;
-  /* position: 100% 100%; */
 }
 
 /* Online Courses CSS */
@@ -92,14 +91,15 @@ body{
 .testimonial p{  
   padding: 15px 15px;
   text-align: justify;
+  transform: translateX(75px);
 }
 .icon-size{
   font-size: 22px;
 }
 .icon-size:hover{
-  /* font-size: 24px; */
   color:red
 }
+
 /* Footer Part CSS */
 .bg-footer{
   background-color: #282531;
@@ -118,11 +118,11 @@ body{
 }
 .bg-footer p,a{
   font-size: 14px;
-  
 }
 
 /* Finished CSS  */
 
+/* MEDIA QUERY START */
 @media only screen and (max-width: 600px) {
   
   .landing-left p{
@@ -146,4 +146,8 @@ body{
   .sign-in button{
     transform: translateX(150%);
   }
+  .testimonial p{
+  transform: translateX(10px);
+  }
 }
+/* MEDIA QUERY FINISHED */
