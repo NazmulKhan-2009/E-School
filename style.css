@@ -18,7 +18,7 @@ body{
   padding: 10px 10px;
   outline-style: none;
   border: none;
-  width: 100px;
+  width: 104px;
   color: white;
 }
 
@@ -32,8 +32,8 @@ body{
 }
 .landing-left h1{
   line-height: 4rem;
-  font-weight: 900;
-  font-size: 3rem;
+  font-weight:bold;
+  font-size: 48px;
   
 }
 .landing-left span{
@@ -47,7 +47,7 @@ body{
   padding: 10px 20px;
   outline-style: none;
   border: none;
-  width: 150px;
+  width: 153px;
   color: white;
 }
 
@@ -67,9 +67,9 @@ body{
   border-radius: 10px;
 }
 .resources img{
-  min-width: 80px;
-  height:80px;
-  position: 100% 100%;
+  min-width: 66px;
+  height:85px;
+  /* position: 100% 100%; */
 }
 
 /* Online Courses CSS */
@@ -93,17 +93,53 @@ body{
   padding: 15px 15px;
   text-align: justify;
 }
+
 /* Footer Part CSS */
 .bg-footer{
   background-color: #282531;
   /* color: #FFFFFF; */
   width: 100%;
- min-height: 300px;
+  min-height: 300px;
 }
 .bg-footer p, h6,a{
   color:#FFFFFF ;
+  }
+.bg-footer h6{
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.bg-footer p,a{
+  font-size: 14px;
   
 }
-
+.bg-footer li{
+  padding: 5px 0;
+}
 
 /* Finished CSS  */
+
+@media only screen and (max-width: 600px) {
+  
+  .landing-left p{
+    text-align: center;
+    margin: auto;
+   }
+  .landing-left h1{
+    line-height: 2rem;
+    font-weight:bold;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+  }
+  .start-btn button{
+    transform: translateX(100%);
+
+  }
+  .nav-responsive a{
+    margin: auto;
+  }
+  .sign-in button{
+    transform: translateX(150%);
+  }
+}
