@@ -103,10 +103,11 @@ body{
 /* Footer Part CSS */
 .bg-footer{
   background-color: #282531;
-  /* color: #FFFFFF; */
   width: 100%;
   min-height: 300px;
+  margin-bottom: 0;
 }
+
 .bg-footer p, h6,a{
   color:#FFFFFF ;
   }
@@ -118,9 +119,6 @@ body{
 .bg-footer p,a{
   font-size: 14px;
   
-}
-.bg-footer li{
-  padding: 5px 0;
 }
 
 /* Finished CSS  */
