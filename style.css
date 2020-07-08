@@ -47,7 +47,7 @@ body{
   padding: 10px 20px;
   outline-style: none;
   border: none;
-  width: 153px;
+  width: 160px;
   color: white;
 }
 
@@ -93,7 +93,13 @@ body{
   padding: 15px 15px;
   text-align: justify;
 }
-
+.icon-size{
+  font-size: 22px;
+}
+.icon-size:hover{
+  /* font-size: 24px; */
+  color:red
+}
 /* Footer Part CSS */
 .bg-footer{
   background-color: #282531;
