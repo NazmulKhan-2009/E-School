@@ -7,8 +7,14 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-.main-container{
+.nav-bg{
   background-color: #F0FFF0;
+  height: 80px;
+  
+}
+.landing-bg{
+  background-color: #F0FFF0;
+  height: 450px;
 }
 .sign-in button{
   background-color: #21B573;
@@ -39,4 +45,27 @@ body{
   border: none;
   width: 150px;
   color: white;
+}
+.resources{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  padding: 30px ;
+  margin-bottom: 10px;
+  transition: .3s all;
+  
+  
+  
+}
+.resources:hover{
+  box-shadow: 5px 5px 20px lightgray;
+  transform: translateY(-5px);
+  border-radius: 10px;
+}
+.resources img{
+  min-width: 80px;
+  height:80px;
+  position: 100% 100%;
 }
